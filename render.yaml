@@ -1,8 +1,7 @@
 services:
   - type: web
-    name: customer-revenue-app
+    name: customer-project
     env: python
-    buildCommand: |
-      pip install --upgrade pip setuptools wheel
-      pip install -r requirements.txt
-    startCommand: gunicorn mysite.wsgi
+    pythonVersion: 3.8.18
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn mysite.wsgi:application --log-file -
