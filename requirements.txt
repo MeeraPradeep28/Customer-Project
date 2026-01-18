@@ -3,7 +3,7 @@ wheel>=0.38.4
 pip>=23.0.1
 
 # TensorFlow & Keras
-tensorflow-cpu==2.10.1
+tensorflow-cpu==2.10.0
 keras-nightly==2.10.0
 Keras-Preprocessing==1.1.2
 astunparse==1.6.3
@@ -56,3 +56,4 @@ termcolor>=1.1.0
 Werkzeug>=2.2.3
 wrapt>=1.14.0
 importlib-metadata>=4.13.0
+
